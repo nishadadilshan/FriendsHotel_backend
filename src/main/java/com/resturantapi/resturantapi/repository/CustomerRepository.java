@@ -1,4 +1,7 @@
 package com.resturantapi.resturantapi.repository;
 
-public class CustomerRepository {
+import com.resturantapi.resturantapi.entity.Customer;
+import org.springframework.data.repository.CrudRepository;
+
+public interface CustomerRepository extends CrudRepository<Customer , Integer> {
 }
